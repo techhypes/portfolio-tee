@@ -1,8 +1,7 @@
 import React from 'react'
-import me from '../assets/me-about.jpg'
+import me from '../assets/me-about.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { HiLightBulb } from 'react-icons/hi'
-import { AiFillFolderOpen } from 'react-icons/ai'
 
 
 const About = () => {
@@ -25,29 +24,25 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>2+ Years Dev Experience</small>
+              <h5>Tutor</h5>
+              <small>Freelance Tutor</small>
             </article>
 
             <article className="about__card">
               <HiLightBulb className='about__icon' />
               <h5>Academic</h5>
-              <small>CGPA 4.00 in Local Uni</small>
+              <small>SPM 9A's</small>
             </article>
 
-            <article className="about__card">
-              <AiFillFolderOpen className='about__icon' />
-              <h5>Projects</h5>
-              <small>10+ Industrial-Level Projects</small>
-            </article>
           </div>
 
-          <p>
+          {/* <p>
             Passionate in web development. Interested in collabing internationally. 
             I can build a website for you, just drop me a DM, I won't eat you.
             I'm also a blockchain enthusiast, so if you've got a web3 idea, hit me up.
-          </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </p> */}
+          
+          <a href="#contact" className='btn btn-primary mt-5'>Let's Talk</a>
 
         </div>
         
